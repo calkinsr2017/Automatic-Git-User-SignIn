@@ -5,4 +5,7 @@ Make sure you have an ssh key configured.
 
 Run this script when different users use the same computer!
 
-run as `python3 switchUsers.py`
+# Installation
+
+Download python from: https://www.python.org/downloads/ if using Windows.
+Run as `python switchUsers.py`
