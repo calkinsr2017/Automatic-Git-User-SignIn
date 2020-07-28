@@ -22,7 +22,7 @@ if url_file.mode == 'r':
     else:
         repo = url[url.find(':') + 1::]
 
-
+repo = repo.rstrip("\n")
 
 fullString = "git@github-" + ssh + ":" + repo
 
