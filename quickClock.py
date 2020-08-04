@@ -21,7 +21,5 @@ elem.send_keys(password)
 elem.send_keys(Keys.RETURN)
 
 
-driver.close()
-
 
 
