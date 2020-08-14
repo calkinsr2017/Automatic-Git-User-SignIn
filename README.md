@@ -7,6 +7,13 @@ Run this script when different users use the same computer!
 
 # setup
 
+Most will use it as a submodule for Project Core. A folder is already created within master. In order to use the functionality you need to initialize it on a new computer.
+ - `git submodule add https://github.com/calkinsr2017/Automatic-Git-User-SignIn`
+ - `git submodule update --init`
+ - only do the second comman if the folder is empty
+You can then git bash and pull as if it is its own git project.
+You still need to follow the steps below. 
+
 In order to use this projects full functionality you need to go through a few first steps when using on a new computer.
 1. Download python from: https://www.python.org/downloads/ if using Windows.
 2. Download the <a href="https://sites.google.com/a/chromium.org/chromedriver/downloads">ChromeDriver</a> and stick chromedriver.exe into your users bin folder. Make sure bin is in the environment variables path.
@@ -15,6 +22,8 @@ In order to use this projects full functionality you need to go through a few fi
  - Click "Environment variables" and under System variables make sure `C:\Users\MPLEX\bin` is in `PATH` (Could be `Path`). Click edit to add or see if it exists.
 3. Within the cloned repository open command prompt
  - run `pip install selenium`
+
+
 
 
 # How to Use
